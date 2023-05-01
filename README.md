@@ -25,5 +25,8 @@ Vox empowers students to shape their education by amplifying their voices. Share
 - Added Forget Password Screen
 - Added a blank template for Forget Screen
 
-### v0.3 README Update
+### README Update
 - Updated minor changes for the readme files
+
+### Browser Logo Update
+- Updated the favicon.ico
