@@ -29,7 +29,7 @@
                 </div>
                 </div>
                     <div class="col-6 d-flex justify-content-end align-items-center">
-                        <a href="" style="color: #1FAB89; text-decoration: none">Forgot password?</a>
+                        <a href="{{ route('forgetpassword') }}" style="color: #1FAB89; text-decoration: none">Forgot password?</a>
                     </div>
                 </div>
 

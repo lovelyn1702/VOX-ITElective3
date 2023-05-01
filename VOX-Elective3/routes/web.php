@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\ForgotPassword;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Register;
 use App\Http\Controllers\Login;
+use App\Http\Controllers\ForgetPassword;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +25,5 @@ Route::get('/', function () {
 Route::get('/register', [Register::class, 'index'])->name('register');
 
 Route::get('/login', [Login::class, 'index'])->name('login');
+
+Route::get('/forgetpassword', [ForgetPassword::class, 'index'])->name('forgetpassword');
