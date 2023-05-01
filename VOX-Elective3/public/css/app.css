@@ -1,0 +1,34 @@
+/* apply poppins using this font-family: 'Poppins', sans-serif; to all document */
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#containerBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#containerBody .row .col {
+    width: 100%;
+    height: 100%;
+}
+
+.form-floating .form-control:focus {
+    border-color: #1FAB89;
+    box-shadow: 0 0 0 0.2rem #167860;
+}
+
+  .form-check-input:checked {
+    background-color: #1FAB89;
+    border-color: #1FAB89;
+  }
